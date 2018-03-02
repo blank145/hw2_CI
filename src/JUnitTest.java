@@ -16,7 +16,7 @@ public class JUnitTest {
 		q.enQueue("B");
 		assertEquals(q.deQueue(), "A");	
 	}
-	@Test(expected = IllegalStateException.class) 
+	@Test
 	public void enQueueTestB() {
 		q.enQueue("A");
 		q.enQueue("B");
